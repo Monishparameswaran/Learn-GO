@@ -1,0 +1,4 @@
+You are given with a file that has 5 sub marks of the students in a row where column number from 3 to 8 has marks in it,
+eg,
+ col[3] has maths marks of all students,col[4] has science marks of all students.
+write a program using file handling to to get a student name and  print all subject marks with respective to their subjects and finally their total marks.

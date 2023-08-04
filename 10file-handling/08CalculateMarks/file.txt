@@ -1,0 +1,4 @@
+name: Monish
+maths U19MAT292 78
+name dhakshin
+science U19SCI134 56

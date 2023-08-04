@@ -1,0 +1,20 @@
+
+The bufio package in Go provides buffered I/O functionality, which is useful for efficient file handling. It wraps an io.Reader or io.Writer object, such as a file, and provides additional buffering capabilities for better performance.
+
+Here are some key features and benefits of using the bufio package for file handling:
+
+Buffered Reading and Writing:
+The bufio package introduces buffered reading and writing operations, which can improve performance when dealing with small reads or writes. It reads or writes data in larger chunks rather than one byte at a time, reducing the number of system calls and improving efficiency.
+
+Line-by-Line Reading:
+The bufio.Scanner type allows reading a file line by line. It automatically handles splitting the input into lines and provides convenient methods for scanning through the file content.
+
+Error Handling:
+The bufio.Scanner type also includes error handling capabilities. It provides the scanner.Err() method to check for any errors that occurred during the scanning process.
+
+Read/Write Buffer Size Control:
+With bufio.Reader and bufio.Writer, you can control the size of the buffer used for reading or writing data. By adjusting the buffer size, you can optimize for different use cases and balance memory usage with I/O performance.
+
+Overall, using the bufio package can lead to more efficient file handling by reducing the number of I/O operations and providing convenient methods for working with file content, such as line-by-line reading. It is particularly useful when dealing with text files or situations where performance optimization is a concern.
+
+Note that while bufio provides buffering capabilities, it does not provide direct support for complex file operations like seeking or random access. For such operations, you would typically work with the underlying os.File object directly

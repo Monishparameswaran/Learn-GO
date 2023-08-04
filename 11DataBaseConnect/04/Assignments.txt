@@ -1,0 +1,7 @@
+Create login validation program that takes 2 option from the user , 
+     1.sign up
+     2.login
+ if user press 1 ,they should be able to enter new email id and password, as a programmer you have to store that in the database
+ if user press 2 , they should be able to enter their account details such as email and password, you have to verify that with details in
+ database and say login successful , if password not matches it should tell invalid password, if email doesnt even exist tell "user not exist"
+ and redirect them to sign in process..

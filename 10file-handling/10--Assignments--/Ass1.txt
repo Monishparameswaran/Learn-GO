@@ -1,0 +1,5 @@
+
+name      admno   maths  science  cpp  os java
+Monish    15234    89      87      95  94  96 
+Jagan     34321    92      98      100 100 100
+Dharshan  2736     93      90      99  96  98
