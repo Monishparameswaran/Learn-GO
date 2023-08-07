@@ -4,7 +4,7 @@
 and efficient software systems.
 
     slice are more flexible and powerful .variable length
-    slice are also index-based and have a asixe but is resized when needed
+    slice are also index-based and have a size but is resized when needed
     slice are much flexible then arrays
     
 ## Intialise the slice
