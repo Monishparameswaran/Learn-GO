@@ -8,7 +8,7 @@ and efficient software systems.
     slice are much flexible then arrays
     
 ## Intialise the slice
->   letters := [ ]string{"M", "o", "n", "i","s","h"}
+>   letters := [ ]string{"M", "o", "n", "i","s","h"}.
 
 ### How to add elements to the slice
 >  letters = append(letters,"name: Monish")
