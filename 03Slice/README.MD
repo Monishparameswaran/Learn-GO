@@ -3,7 +3,7 @@
    The slice type is an abstraction built on top of Go’s array type, and so to understand slices we must first understand arrays.slice is an abstraction of array
 and efficient software systems.
 
-    slice are more flexible and powerful .variable length
+    slice are more flexible and powerful,it has variable length
     slice are also index-based and have a asixe but is resized when needed
     slice are much flexible then arrays
     
@@ -38,5 +38,4 @@ func make([ ]T, len, cap) [ ]T{
  
 ### What is capacity
  Capacity represents the maximum number of elements that the slice can hold without reallocating the underlying array.
-  
-   frequent reallocation can affect perfomance
+ note : frequent reallocation can affect perfomance
