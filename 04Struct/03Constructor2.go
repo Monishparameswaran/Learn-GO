@@ -14,7 +14,7 @@ func main(){
 	
 	musk:=setEmployee("Elon musk",8978300);
 	fmt.Println(musk);
-	// var tata struct;  will not works 
+	// var tata struct;  will not work
     // tata=setEmployee("Ratan tata",97340783);  
 	
 }

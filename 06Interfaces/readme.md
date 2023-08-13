@@ -2,7 +2,7 @@
 
 An interface is a collection of method signatures that define a set of behaviors. It specifies what methods a type must have to be considered as implementing the interface. Interfaces provide a way to define abstractions and decouple code from specific implementations.
 
-if muliple structures has same function then type interface can define that common function signature in it
+if multiple structures has same function then type interface can define that common function signature in it
 
 ``` 
 package main
