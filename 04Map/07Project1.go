@@ -47,4 +47,6 @@ func main(){
 	addTocart("keyboard",4);
 	addTocart("mouse ",5);
 	listCart();
+	removeFromCart("MacbookPro");
+	listCart()
 }
